@@ -1,0 +1,5 @@
+{:deps {io.github.nextjournal/clerk {:git/sha "{{clerk-sha}}"}}
+ :aliases
+ {:nextjournal/garden {:exec-fn nextjournal.clerk/serve!
+                       :exec-args {:index "notebooks/hello.clj"
+                                   :watch-paths ["notebooks"]}}}}
