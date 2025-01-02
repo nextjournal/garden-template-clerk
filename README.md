@@ -12,7 +12,7 @@ You can use a specific commit from this repo using `garden init --template io.gi
 
 If you want you can also use it with [neil](https):
 
-    $ neil new io.github.nextjournal/garden-template-clerk
+    $ neil new io.github.nextjournal/garden-template-clerk mycoolproject
 
 or with
 
